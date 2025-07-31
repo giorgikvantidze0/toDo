@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Todo App</h1>
+    <div class="form">
+        <input type="text" id="taskInput" placeholder="Enter Task">
+        <select id="categorySelect">
+            <option value="all">all</option>
+            <option value="personal">personal</option>
+            <option value="study">study</option>
+            <option value="work">work</option>
+        </select>
+        <button id="addtaskBtn">add</button>
+    </div>
+
+    <div class="stats">
+        <P>Total: <span id="totalTasks">0</span></P>
+        <P>Completed: <span id="CompletedTasks">0</span></P>
+        <P>Incomplete: <span id="IncompleteTask">0</span></P>
+    </div>
+
+    <div>
+        <label>Category Filter</label>
+
+        <select id="FilterCategory">
+            <option value="all">all</option>
+            <option value="personal">personal</option>
+            <option value="study">study</option>
+            <option value="work">work</option>
+        </select>
+    </div>
+
+    <ul id="TaskList"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
