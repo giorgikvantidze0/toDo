@@ -81,3 +81,5 @@ function updateStats() {
     completedTasksEl.innerText = tasks.filter(t => t.completed).length;
     incompleteTasksEl.innerText = tasks.filter(t => !t.completed).length;
 }
+
+
